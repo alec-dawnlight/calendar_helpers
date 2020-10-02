@@ -1,4 +1,4 @@
-const DAYS_IND = [
+const DAYS = [
     31,
     28,
     31,
@@ -13,7 +13,7 @@ const DAYS_IND = [
     31,
 ];
 
-const DAYS_DICT = {
+const DAYS_MAP = {
     "January":   31,
     "February":  28,
     "March":     31,
@@ -28,20 +28,20 @@ const DAYS_DICT = {
     "December":  31,
 };
 
-const MONTH_NAMES = {
-    0:  "January",
-    1:  "February",
-    2:  "March",
-    3:  "April",
-    4:  "May",
-    5:  "June",
-    6:  "July",
-    7:  "August",
-    8:  "September",
-    9:  "October",
-    10: "November",
-    11: "December",
-};
+const MONTH_NAMES = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+];
 
 const DAYS_OF_WEEK = {
     0: 'Sunday',
