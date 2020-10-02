@@ -11,7 +11,7 @@ function httpGet(url){
 // events_req = httpGet("http://localhost:5000/api/get_events/")
 events = JSON.parse(events_req)['data']
 
-const days_in_month = {
+const DAYS_IN_MONTH = {
     0: 31,
     1: 28,
     2: 31,
@@ -26,7 +26,7 @@ const days_in_month = {
     11: 31,
 };
 
-const month_names = {
+const MONTH_NAMES = {
     0: "January",
     1: "February",
     2: "March",
@@ -41,7 +41,7 @@ const month_names = {
     11: "December",
 };
 
-const days_of_week = {
+const DAYS_OF_WEEK = {
     0: 'sunday',
     1: 'monday',
     2: 'tuesday',
@@ -50,3 +50,15 @@ const days_of_week = {
     5: 'friday',
     6: 'saturday',
 };
+
+const COLOR_PALLETE = [
+    "#e0ece4",
+    "#ff4b5c",
+    "#056674",
+    "#66bfbf"
+]
+
+const GREY = COLOR_PALLETE[0];
+const RED = COLOR_PALLETE[1];
+const TEAL = COLOR_PALLETE[2];
+const GREEN = COLOR_PALLETE[3];
